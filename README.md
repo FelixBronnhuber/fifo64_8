@@ -23,15 +23,15 @@ This project implements a FIFO (First In, First Out) buffer with a capacity of 6
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/FelixBronnhuber/fifo64_8.git
    ```
 2. Navigate to the project directory:
    ```bash
    cd <repository-directory>
    ```
-3. Build the project using make:
+3. Build the project using make (debug is optional):
    ```bash
-   make
+   make debug
    ```
 
 ### Running the Program
