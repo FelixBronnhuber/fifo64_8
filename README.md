@@ -29,8 +29,14 @@ This project implements a FIFO (First In, First Out) buffer with a capacity of 6
    ```bash
    cd <repository-directory>
    ```
-3. Build the project using make (debug is optional):
+3. Build the project using make:
    ```bash
+   make clean
+   make
+   ```
+4. Or build the project with the debug flag enabled:
+   ```bash
+   make clean
    make debug
    ```
 
@@ -38,7 +44,7 @@ This project implements a FIFO (First In, First Out) buffer with a capacity of 6
 
 After building the project, run the executable:
 ```bash
-./fifo64_8
+./main
 ```
 
 ## Code Formatting
